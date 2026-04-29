@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #06b6d4);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+/* NAV */
+nav {
+    background: #020617;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* CONTAINER */
+.container {
+    background: #020617;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.05);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #1e293b;
+}
+
+/* FORM */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    background: #1e293b;
+    color: white;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    background: linear-gradient(135deg, #22c55e, #06b6d4);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* IMAGE */
+img {
+    border-radius: 10px;
+}

@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html>	
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
     <title>Tech Community</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="tampilkanData()">
 
 <header>
-    <h1>Tech Community</h1>
-    <p>Komunitas untuk berbagi teknologi</p>
+    <h1> Tech Community</h1>
+    <p>Komunitas berbagi teknologi, inovasi digital, dan masa depan IT</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="form.html">Form</a>
-    <a href="gallery.html">Multimedia</a>
+    <a href="./index.html">Home</a>
+    <a href="./form.html">Form</a>
+    <a href="./gallery.html">Multimedia</a>
 </nav>
 
+<!-- SECTION DESKRIPSI -->
 <div class="container">
-    <h2>Data Anggota</h2>
+    <h2> Tentang Kami</h2>
+    <p>
+        Tech Community adalah komunitas bagi para pecinta teknologi untuk belajar,
+        berbagi, dan berkembang bersama dalam bidang seperti Web Development,
+        Artificial Intelligence, dan Cyber Security.
+    </p>
+</div>
+
+<!-- SECTION DATA -->
+<div class="container">
+    <h2> Data Anggota</h2>
+
     <table>
         <thead>
             <tr>
@@ -27,10 +41,20 @@
                 <th>Bidang Minat</th>
             </tr>
         </thead>
-        <tbody id="dataAnggota"></tbody>
+        <tbody id="dataAnggota">
+            <!-- DATA DARI JS MASUK KE SINI -->
+        </tbody>
     </table>
+
+    <br>
+    <button onclick="hapusData()"> Hapus Semua Data</button>
 </div>
 
+<footer style="text-align:center; padding:20px; opacity:0.7;">
+    <p>© 2024 Tech Community | Built with HTML, CSS & JavaScript</p>
+</footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
